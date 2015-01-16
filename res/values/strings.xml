@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Faculty Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Logo">Logo</string>
+    <string name="title_activity_main_log">Faculty Reminder</string>
+    <string name="title_activity_scheduler">Faculty Reminder-Scheduler</string>
+    <string name="title_activity_data_area">DataArea</string>
+    <string name="submit">Submit</string>
+	<string name="Hour1">1st Hour</string>
+	<string name="Hour2">2nd Hour</string>
+	<string name="Hour3">3rd Hour</string>
+	<string name="Hour4">4th Hour</string>
+	<string name="Hour5">5th Hour</string>
+	<string name="Hour6">6th Hour</string>
+	<string name="Hour7">7th Hour</string>
+	<string name="Hour8">8th Hour</string>
+	
+	
+    <string-array name="hour_array">
+        <item>Select Your Slot</item>
+        <item>1st Year CSE </item>
+        <item>2nd Year CSE </item>
+        <item>3rd Year CSE </item>
+        <item>4th Year CSE </item>
+        <item>1st Year IT  </item>
+        <item>2nd Year IT </item>
+        <item>3rd Year IT </item>
+        <item>4th Year IT </item>
+        <item>1st Year ECE</item>
+        <item>2nd Year ECE</item>
+        <item>3rd Year ECE</item>
+        <item>4th Year ECE</item>
+        <item>1st Year EEE</item>
+        <item>2nd Year EEE</item>
+        <item>3rd Year EEE</item>
+        <item>4th Year EEE</item>
+        <item>1st Year Mech</item>
+        <item>2nd Year Mech</item>
+        <item>3rd Year Mech</item>
+        <item>4th Year Mech</item>
+        <item>1st Year ME</item>
+        <item>2nd Year ME</item>
+           </string-array>
+
+    <string name="title_activity_final_schedule">FinalSchedule</string>
+    <string name="title">Faculty Reminder</string>
+    <string name="week">Faculty Reminder                    </string>
+    <string name="Error">Image Not Found</string>
+    <string name="day">Day Selector</string>
+    <string name="Display">Display</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Exit">Exit</string>
+    <string name="Settings">Settings</string>
+    <string name="hour">Assign Hours</string>
+    <string name="title_activity_display">Display</string>
+    <string name="notification">Notifications</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="set">Notifiaction Settings</string>
+    <string name="display">DISPLAY</string>
+    <string name="title_activity_displaymain">DisplayMain</string>
+
+</resources>

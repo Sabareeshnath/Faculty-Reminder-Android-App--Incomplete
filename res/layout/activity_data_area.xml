@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+<TextView 
+        android:id="@+id/week"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/week"/>
+         
+             
+    <TextView 
+        android:id="@+id/hour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/hour"/>
+    
+    <Spinner
+        android:id="@+id/Hour1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour1"/>
+
+    <Spinner
+        android:id="@+id/Hour2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour2" />
+    
+    <Spinner
+        android:id="@+id/Hour3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour3"/>
+
+    <Spinner
+        android:id="@+id/Hour4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour4" />
+    
+    <Spinner
+        android:id="@+id/Hour5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour5"/>
+
+    <Spinner
+        android:id="@+id/Hour6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour6" />
+    
+    <Spinner
+        android:id="@+id/Hour7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour7"/>
+
+    <Spinner
+        android:id="@+id/Hour8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"
+        android:prompt="@string/Hour8" />
+    <Button
+        android:id="@+id/button1"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+ <TextView 
+     android:id="@+id/tvv"
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+</ScrollView>

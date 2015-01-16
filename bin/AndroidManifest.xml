@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.facutlyreminder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+<uses-permission 
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission 
+    android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:name="com.example.facutlyreminder.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+              android:theme="@android:style/Theme.Black"
+            android:name="com.example.facutlyreminder.MainLog"
+            android:label="@string/title_activity_main_log" >
+        </activity>
+        <activity
+            android:name="com.example.facutlyreminder.Scheduler"
+            android:label="@string/title_activity_scheduler" >
+        </activity>
+        <activity
+              android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:name="com.example.facutlyreminder.DataArea"
+            android:label="@string/title_activity_data_area" >
+        </activity>
+        <activity
+            android:name="com.example.facutlyreminder.FinalSchedule"
+            android:label="@string/title_activity_final_schedule" >
+        </activity>
+        
+        <activity
+            android:name="com.example.facutlyreminder.Display"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name="com.example.facutlyreminder.DisplayMain"
+            android:label="@string/title_activity_displaymain" >
+        </activity>
+        <activity
+            android:name="com.example.facutlyreminder.Voice"
+             >
+        </activity>
+        <activity
+            android:name="com.example.facutlyreminder.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
